@@ -1,0 +1,19 @@
+.my-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* 側邊欄 */
+  .sidebar {
+    flex: 0 0 200px; /* 固定寬度的側邊欄 */
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
+  }
+  
+  /* 主內容 */
+  .main-content {
+    flex: 1; /* 填滿剩餘空間 */
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
